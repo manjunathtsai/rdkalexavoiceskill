@@ -1,0 +1,393 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "my device",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "HelloWorldIntent",
+          "slots": [],
+          "samples": [
+            "hello",
+            "how are you",
+            "say hi world",
+            "say hi",
+            "hi",
+            "say hello world",
+            "say hello"
+          ]
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "MoveLeftIntent",
+          "slots": [],
+          "samples": [
+            "navigate left",
+            "mov",
+            "move left",
+            "move"
+          ]
+        },
+        {
+          "name": "MoveRightIntent",
+          "slots": [],
+          "samples": [
+            "navigate right",
+            "right",
+            "move right"
+          ]
+        },
+        {
+          "name": "MoveUpIntent",
+          "slots": [],
+          "samples": [
+            "navigate up",
+            "up",
+            "move up"
+          ]
+        },
+        {
+          "name": "MoveDownIntent",
+          "slots": [],
+          "samples": [
+            "navigate down",
+            "down",
+            "move down"
+          ]
+        },
+        {
+          "name": "LaunchYouTubeIntent",
+          "slots": [],
+          "samples": [
+            "launch youtube"
+          ]
+        },
+        {
+          "name": "CloseYouTubeIntent",
+          "slots": [],
+          "samples": [
+            "close youtube"
+          ]
+        },
+        {
+          "name": "GoogleLaunchIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "google launch {query}",
+            "google launch"
+          ]
+        },
+        {
+          "name": "GoogleCloseIntent",
+          "slots": [],
+          "samples": [
+            "google close"
+          ]
+        },
+        {
+          "name": "EnterKeyIntent",
+          "slots": [],
+          "samples": [
+            "play",
+            "enter "
+          ]
+        },
+        {
+          "name": "ExitKeyIntent",
+          "slots": [],
+          "samples": [
+            "navigate back",
+            "stop video",
+            "back"
+          ]
+        },
+        {
+          "name": "LaunchGuideIntent",
+          "slots": [],
+          "samples": [
+            "launch guide"
+          ]
+        },
+        {
+          "name": "VimeoIntent",
+          "slots": [],
+          "samples": [
+            "launch vimeo",
+            "vimeo",
+            "start vimeo"
+          ]
+        },
+        {
+          "name": "WallStreetJournalIntent",
+          "slots": [],
+          "samples": [
+            "launch wall street journal",
+            "wall street journal",
+            "journal",
+            "start journal",
+            "start WallStreetJournal",
+            "WallStreetJournal"
+          ]
+        },
+        {
+          "name": "AljazeeraIntent",
+          "slots": [],
+          "samples": [
+            "al jazeer",
+            "launch al jazeer",
+            "start  zebra",
+            " zebra"
+          ]
+        },
+        {
+          "name": "EuroNewsIntent",
+          "slots": [],
+          "samples": [
+            "euro news",
+            "launch euro news",
+            "Europe",
+            "news",
+            "start EuroNews",
+            "EuroNews"
+          ]
+        },
+        {
+          "name": "FranceTwentyFourIntent",
+          "slots": [],
+          "samples": [
+            "launch farnce twenty four",
+            "france twenty four",
+            "twentyfour",
+            "france",
+            "start FranceTwentyFour",
+            "FranceTwentyFour"
+          ]
+        },
+        {
+          "name": "AccuWeatherIntent",
+          "slots": [],
+          "samples": [
+            "accu weather",
+            "launch accu weather",
+            "weather",
+            "start AccuWeather",
+            "AccuWeather"
+          ]
+        },
+        {
+          "name": "WeatherNetworkIntent",
+          "slots": [],
+          "samples": [
+            "launch weather network",
+            "weather network",
+            "network",
+            "start WeatherNetwork",
+            "WeatherNetwork"
+          ]
+        },
+        {
+          "name": "TrueOrFalseIntent",
+          "slots": [],
+          "samples": [
+            "launch true false",
+            "true false",
+            "start TrueOrFalse",
+            "TrueOrFalse"
+          ]
+        },
+        {
+          "name": "SugarBoostIntent",
+          "slots": [],
+          "samples": [
+            "sugar boost",
+            "launch sugar boost",
+            "boost",
+            "sugar",
+            "start SugarBoost",
+            "SugarBoost"
+          ]
+        },
+        {
+          "name": "GuessThatCityIntent",
+          "slots": [],
+          "samples": [
+            "launch guss that city",
+            "guess that city",
+            "guess city",
+            "city guess",
+            "start GuessThatCity",
+            "GuessThatCity"
+          ]
+        },
+        {
+          "name": "BaebleMusicIntent",
+          "slots": [],
+          "samples": [
+            "music",
+            "launch baeble music",
+            "baeble",
+            "baeble music",
+            "start baeble music"
+          ]
+        },
+        {
+          "name": "RadiolineIntent",
+          "slots": [],
+          "samples": [
+            "launch radioline",
+            "launch radio",
+            "radio",
+            "start Radioline",
+            "Radioline"
+          ]
+        },
+        {
+          "name": "MainUIIntent",
+          "slots": [],
+          "samples": [
+            "metro ui",
+            "metro",
+            "main ui",
+            "launch main ui",
+            "start main",
+            "main"
+          ]
+        },
+        {
+          "name": "SkillModeEnableIntent",
+          "slots": [],
+          "samples": [
+            "invocation enable"
+          ]
+        },
+        {
+          "name": "SkillModeDisableIntent",
+          "slots": [],
+          "samples": [
+            "invocation disable"
+          ]
+        },
+        {
+          "name": "VolumeUpIntent",
+          "slots": [],
+          "samples": [
+            "volume up"
+          ]
+        },
+        {
+          "name": "VolumeDownIntent",
+          "slots": [],
+          "samples": [
+            "volume down"
+          ]
+        },
+        {
+          "name": "MuteIntent",
+          "slots": [],
+          "samples": [
+            "mute"
+          ]
+        },
+        {
+          "name": "UnMuteIntent",
+          "slots": [],
+          "samples": [
+            "unmute",
+            "un mute"
+          ]
+        },
+        {
+          "name": "YouTubeSearchIntent",
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery"
+            }
+          ],
+          "samples": [
+            "Youtube search",
+            "Youtube search {query}"
+          ]
+        }
+      ],
+      "types": []
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "GoogleLaunchIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1363891505909.1459121500567"
+              }
+            }
+          ]
+        },
+        {
+          "name": "YouTubeSearchIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "query",
+              "type": "AMAZON.SearchQuery",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1390071508898.306986086842"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1363891505909.1459121500567",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "provide search string"
+          }
+        ]
+      },
+      {
+        "id": "Elicit.Slot.1390071508898.306986086842",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "provide search string"
+          }
+        ]
+      }
+    ]
+  },
+  "version": "100"
+}
